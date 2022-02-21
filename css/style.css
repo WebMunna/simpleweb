@@ -85,7 +85,7 @@ a{
 
 .showcase{
     
-    background: linear-gradient( rgba(4, 97, 16, 0.5), rgba(4, 97, 16, 0.5) ), url('/img/slide.jpg');
+    background: linear-gradient( rgba(4, 97, 16, 0.5), rgba(4, 97, 16, 0.5) ), url('../img/slide.png');
     background-size: cover;
     background-position: center;  
     min-height: 400px;
