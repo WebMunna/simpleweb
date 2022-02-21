@@ -84,25 +84,22 @@ a{
        /* SHOWCASE AREA */
 
 .showcase{
-    background-image: url('/img/slide1.png') , url('/img/green.png');
+    
+    background: linear-gradient( rgba(4, 97, 16, 0.5), rgba(4, 97, 16, 0.5) ), url('/img/slide1.png');
     background-size: cover;
-    background-position: center;
-    filter: saturate(2), brightness(50%);
-    /* background-position: bottom; */
-    
-    
+    background-position: center;  
     min-height: 400px;
     max-height: 400px;
     width: 100%;
     margin: auto;
-    /* background-image: url('/img/');
-     */
     background-repeat: no-repeat;
-    opacity: 0.9;
+    opacity: 1;
     display: flex;
     flex-direction: column;
    
 }
+
+
 
 .showcase h1 {
     font-size: 2em;
@@ -113,6 +110,9 @@ a{
     opacity: 1;
     color: beige;
 }
+
+
+
 
 .showcase p {
     font-size: 1em;
@@ -501,6 +501,12 @@ margin-left: 200px;
 
     .showcase{
         background-position: bottom;
+    }
+
+    .showcase-texts p{
+        width: 700px;
+        
+        margin: 0, 20px;
     }
     .email-input{
         width: 400px;
