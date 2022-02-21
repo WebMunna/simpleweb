@@ -3,6 +3,8 @@
     font-family: sans-serif;
     font-weight: bold;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 li{
@@ -492,6 +494,94 @@ margin-left: 200px;
     }
 
 }
+
+
+
+       /* WHEN SCREEN SIZE REDUSING FOR MOBILE SCREEN  */
+
+ @media screen and (max-width: 450px){
+
+    /* NAVIGATION AREA */
+
+    .navigation{
+        
+        justify-content: space-between;
+    
+    }
+
+    .menu ul{
+        display: inline-block;
+        flex-direction: row;
+        margin-right: 0;
+        margin-left: 40px;
+        box-sizing: border-box;
+    }
+
+    .menu ul li a{
+        margin-top: 20px;
+       
+    }
+    
+
+    .raping{
+        white-space: pre-wrap;
+    }
+
+
+    /* ABOUT AREA */
+    .about-text p{
+        overflow-y: scroll;   
+      }
+
+    .about-box{
+    
+        min-height: 300px;
+        margin-right: 20px;
+        margin-left: 20px;
+        transition-property: margin;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    
+        
+    }
+
+    /* EMAIL AREA */
+
+    .email-input{
+        width: 250px;
+        transition-property: width;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    }
+
+    .about-company{
+        margin-left: 20px;
+        margin-right: 20px ;
+        transition-property: margin;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    }
+
+    .quick-links{
+        margin-right: 20px;
+    }
+
+
+      /* CUSTOMAR AREA */
+
+    .customer-care{
+        
+        margin-right: 20px;
+        margin-left: 20px;
+        transition-property: margin;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+      
+    }
+
+}
+
+
 
   
            /* WHEN SCREEN SIZE INCREASING */
