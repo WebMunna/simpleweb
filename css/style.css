@@ -1,0 +1,542 @@
+
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+   
+}
+
+a{
+    text-decoration-line: none;
+    
+}
+
+.container{
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
+
+           /* NAVIGATION AREA */
+
+.logo{
+    width: 170px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 30px;  
+}
+
+.raping{
+    white-space: nowrap;
+}
+
+.menu{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    list-style: none;
+    margin-right: 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li a{
+    color: rgb(85, 83, 83);
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.menu ul li a:hover{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+
+
+
+
+
+
+       /* SHOWCASE AREA */
+
+.showcase{
+    background-image: url('/img/slide1.png') , url('/img/green.png');
+    background-size: cover;
+    background-position: center;
+    filter: saturate(2), brightness(50%);
+    /* background-position: bottom; */
+    
+    
+    min-height: 400px;
+    max-height: 400px;
+    width: 100%;
+    margin: auto;
+    /* background-image: url('/img/');
+     */
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.showcase h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 5px;
+    padding: 20px;
+    padding-top: 40px;
+    opacity: 1;
+    color: beige;
+}
+
+.showcase p {
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0;
+    color: rgb(202, 202, 202);
+    /* white-space: pre-wrap; */
+}
+
+.button{
+	margin-top: 15px;
+	width: 160px;
+	height: 45px;
+	border: none;
+	background-color: rgb(174, 176, 177);
+	color: rgb(37, 36, 36);
+	border-radius: 3px;
+	font-weight: bolder;
+	font-size: 15px;
+	opacity: 1;
+    margin-bottom: 20px;
+
+	
+}
+
+.button a{
+    color:black;
+}
+
+
+
+
+             /* PRODUCT AREA */
+
+.products{
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+
+
+.products h1{
+    color:rgb(58, 56, 56);
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.products h1 a{
+    color:rgb(58, 56, 56);
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
+.products h3{
+    color:rgb(58, 56, 56);
+    font-size: medium;
+}
+
+
+
+.product-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plogo{
+    width: 100px;
+}
+
+.seo {
+   
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.branding {
+
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.prlogo {
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+
+
+
+
+            /* ABOUT US */
+
+.about{
+    margin-top: 30px;
+    background-color: rgb(184, 180, 180);
+}
+
+.about-box{
+    display: flex;
+   box-sizing: content-box;
+    /* height: 300px; */
+    min-height: 300px;
+    margin-right: 170px;
+    margin-left: 170px;
+    justify-content: space-between;
+    
+}
+
+.about-img{
+    position: relative;
+    width: 230px;
+    height: 170px;
+    /* margin-right: 100px; */
+}
+
+.about-text{
+  margin-right: 50px;
+}
+
+.about-text h1{
+    font-size: 25px;
+    color: rgb(66, 66, 66);
+  }
+
+  .about-text p{
+    overflow-y: hidden;
+    max-height: 200px;
+    color: rgb(66, 66, 66);
+    
+  }
+
+
+
+
+
+       /* CUSTOMER AREA */
+
+
+.arrow-left {
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+.arrow-right{
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.customer-care{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 170px;
+    margin-left: 170px;
+    min-width: 400px;
+    color: rgb(65, 65, 65);
+}
+
+.person-image{
+    width: 100px;
+    padding: 10px;
+}
+
+.person-text{
+    padding: 0px 5px;
+    
+}
+
+
+
+
+
+              /* EMAIL AREA */
+
+.email{
+    box-sizing: border-box;
+    text-align: center;
+    height: 130px;
+    background-color: rgb(42, 159, 255);
+}
+
+.email-box{
+   display: flex;
+   justify-content: space-around; 
+   width: 100%;
+}
+
+.email-input{
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 300px;
+    height: 45px;
+    background-color: rgb(42, 159, 255); 
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+::placeholder{
+    color: white;
+    padding-left: 30px;
+}
+
+.button-1{
+	margin-top: 45px;
+	width: 160px;
+	height: 50px;
+	border: none;
+	background-color: rgb(255, 255, 255);
+	color: rgb(42, 159, 255); 
+	border-radius: 3px;
+	font-weight: bolder;
+	font-size: 15px;
+	opacity: 1;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+
+	
+}
+
+.button-1 a{
+    color: rgb(42, 159, 255); 
+}
+
+
+        /* COMPANY LINKS AREA */
+
+.links{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+/* .about-text{
+    margin-right: 50px;
+  } */
+  
+
+.about-company{
+width: 200px;
+margin-left: 200px;
+}
+.about-company h1{
+      font-size: 25px;
+      color: rgb(22, 183, 223);
+    }
+  
+.about-company p{
+      overflow-y: hidden;
+      max-height: 200px;
+      color: rgb(22, 183, 223);
+      
+    }
+
+
+.quick-links{
+        width: 200px;
+        padding: 20px;
+        }
+.quick-links h1{
+        font-size: 25px;
+        color: rgb(22, 183, 223);
+      }
+
+
+.contact-us{
+        width: 200px;
+        margin-right: 200px;
+        }
+.contact-us h1{
+        font-size: 25px;
+        color: rgb(22, 183, 223);
+      }
+
+.contact-us h2{
+    color:rgb(22, 183, 223);
+    font-size: medium;
+}
+
+.contact-us h3{
+    color:rgb(22, 183, 223);
+}
+
+.lk{
+    color:rgb(22, 183, 223);
+}
+
+
+
+    /* WHEN SCREEN SIZE REDUSING */
+
+@media screen and (max-width: 700px){
+
+    .navigation{
+        
+        justify-content: space-between;
+    
+    }
+
+    .menu ul{
+        display: inline-block;
+        flex-direction: row;
+        margin-right: 0;
+        margin-left: 40px;
+        box-sizing: border-box;
+    }
+
+    .menu ul li a{
+        margin-top: 20px;
+       
+    }
+    
+
+    .raping{
+        white-space: pre-wrap;
+    }
+
+
+    /* ABOUT AREA */
+    .about-text p{
+        overflow-y: scroll;   
+      }
+
+    .about-box{
+    
+        min-height: 300px;
+        margin-right: 20px;
+        margin-left: 20px;
+        transition-property: margin;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    
+        
+    }
+
+    /* EMAIL AREA */
+
+    .email-input{
+        width: 250px;
+        transition-property: width;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    }
+
+    .about-company{
+        margin-left: 20px;
+        margin-right: 20px ;
+        transition-property: margin;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    }
+
+    .quick-links{
+        margin-right: 20px;
+    }
+
+
+      /* CUSTOMAR AREA */
+
+    .customer-care{
+        
+        margin-right: 20px;
+        margin-left: 20px;
+        transition-property: margin;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+      
+    }
+
+}
+
+  
+           /* WHEN SCREEN SIZE INCREASING */
+
+
+@media screen and (min-width: 700px){
+
+    .showcase{
+        background-position: bottom;
+    }
+    .email-input{
+        width: 400px;
+        transition-property: width;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+        margin-left: 200px;
+    }
+
+    .button-1{
+        margin-right: 200px;
+    }
+
+
+    .about-company{
+       
+        transition-property: margin;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    }
+
+   /* ABOUT AREA */
+
+   .about-box{
+    transition-property: margin;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+   }
+
+   /* CUSTOMER AREA */
+
+   .customer-care{
+        
+    
+    transition-property: margin;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+  
+}
+
+}
